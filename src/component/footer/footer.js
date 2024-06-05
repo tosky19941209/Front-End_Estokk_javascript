@@ -3,9 +3,7 @@ import Logo from "../navbar/logo";
 function Footer() {
     return (
         <div className="w-full flex justify-between object-cover">
-            <img src='./foot.png' className="absolute w-[100vw] h-[11vh] z-[-1]">
 
-            </img>
             <Logo />
 
             <div className="mt-8" id="ConnectWallet">

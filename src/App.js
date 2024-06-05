@@ -5,11 +5,17 @@ import Dashboard from "./component/dashboard/dashboard"
 import Footer from "./component/footer/footer"
 function App() {
   return (
-      <div className='flex min-h-screen flex-col items-center justify-between'>
-        <NavBar />
-        <Dashboard />
-        <Footer />
-      </div>
+    <div className='flex min-h-screen flex-col items-center justify-between bg-red-100' 
+      style={{
+        "background":"url('./background.png')",
+        "backgroundRepeat":"no-repeat",
+        "backgroundSize":"cover"
+      }}
+    >
+      <NavBar />
+      <Dashboard />
+      <Footer />
+    </div>
   );
 }
 
