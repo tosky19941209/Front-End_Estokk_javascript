@@ -1,5 +1,5 @@
-'use client'
-import Link from "next/link"
+
+
 import React from "react"
 import Logo from "./logo"
 function NavBar() {
@@ -7,22 +7,23 @@ function NavBar() {
         <div className="w-[100%] h-[100px] flex justify-between" >
             <img src='./dashboard.png' className="absolute w-[100vw] h-[40vh] z-[-1]"></img>
 
-            <Logo/>
+            <Logo />
 
             <div className="flex" id="NavBar">
                 <nav className="flex mt-10">
                     <ul className="flex">
                         <li className="mr-10 ml-10">
-                            <Link href="">EXPLORE</Link>
+
+                            <a href="/">EXPLORE</a>
                         </li>
                         <li className="mr-10 ml-10">
-                            <Link href="">OFFERS</Link>
+                            <a href="/">OFFERS</a>
                         </li>
                         <li className="mr-10 ml-10">
-                            <Link href="">HISTORY</Link>
+                            <a href="/">HISTORY</a>
                         </li>
                         <li className="mr-10 ml-10">
-                            <Link href="">LANGUAGE</Link>
+                            <a href="/">LANGUAGE</a>
                         </li>
 
                     </ul>

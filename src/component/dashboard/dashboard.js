@@ -3,15 +3,15 @@ import React from "react";
 function Dashboard() {
     return (
         <>
-            <div className="w-[100%] mt-[-100px] pl-32" id="Search">
-                <p className="text-[30px]">Filters</p>
+            <div className="justify-begin w-[100%] mt-[-100px] pl-32 " id="Search">
+                <p className="text-[30px] ml-[00px]">Filters</p>
                 <input
                     type="text"
                     className="border-none rounded-md bg-[#01d4c1] w-[1500px] h-[40px] mt-5"
                 />
                 <div className="flex items-center mt-5">
                     <input type="checkbox" className="mr-2" />
-                    <label>Show only Whitelisted properties offers</label>
+                    <label>Show only Whitelisted properties' offers</label>
                 </div>
             </div>
 

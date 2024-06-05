@@ -1,6 +1,5 @@
 import React from "react";
 import Logo from "../navbar/logo";
-import { url } from "inspector";
 function Footer() {
     return (
         <div className="w-full flex justify-between object-cover">
