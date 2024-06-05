@@ -11,7 +11,7 @@ function Dashboard() {
                 />
                 <div className="flex items-center mt-5">
                     <input type="checkbox" className="mr-2" />
-                    <label>Show only Whitelisted properties' offers</label>
+                    <label>Show only Whitelisted properties offers</label>
                 </div>
             </div>
 
