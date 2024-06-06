@@ -4,7 +4,7 @@ import OfferDashboard from "./offer_dashboard";
 import OfferButtonGroup from "./offerbuttongroup";
 function Dashboard() {
     return (
-        <div className="h-[70vh] flex flex-col">
+        <div className=" flex flex-col items-center lg:items-start">
             <OfferButtonGroup/>
             <Filter />
             <OfferDashboard />

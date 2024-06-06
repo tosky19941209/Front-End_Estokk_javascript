@@ -1,33 +1,38 @@
-
-
 import React from "react"
 import Logo from "./logo"
 function NavBar() {
     return (
-        <div className="w-[100%] h-[100px] flex justify-between">
-            <div className="mt-3">
+        <div className="w-[80%] flex flex-col items-center lg:flex-row lg:justify-between ">
+            <div className="absolute right-10 top-3 block lg:hidden" id="ConnectWallet">
+                <button className="w-[40vw] h-[6vh] rounded bg-[#00f6ff] text-lg text-[white]">Connect Wallet</button>
+            </div>
+
+            <div className="mt-20 lg:mt-3 flex ">
                 <Logo />
             </div>
 
             <div className="flex" id="NavBar">
                 <nav className="flex mt-10">
-                    <ul className="flex w-[30vw]  items-center justify-between">
+                    <ul className="flex w-[80vw] lg:w-[30vw]  items-center justify-between">
+                       
                         <li className="">
-
                             <a href="/" className="text-white text-[20px]">EXPLORE</a>
                         </li>
+                       
                         <li className="">
                             <a href="/" className="text-white text-[20px]">YOUR OFFERS</a>
                         </li>
+                     
                         <li className="" >
                             <a href="/" className="text-white text-[20px]">HISTORY</a>
                         </li>
+                   
                     </ul>
                 </nav>
             </div>
 
-            <div className="mt-8" id="ConnectWallet">
-                <button className="w-[18vw] h-[6vh] rounded bg-[#00f6ff] mr-[100px] text-[25px] text-[white]">Connect Wallet</button>
+            <div className="mt-8 hidden lg:block" id="ConnectWallet">
+                <button className="w-[18vw] h-[6vh] rounded bg-[#00f6ff] text-[2xl] text-[white]">Connect Wallet</button>
             </div>
 
         </div>

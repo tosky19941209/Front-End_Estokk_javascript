@@ -2,17 +2,18 @@ import React from "react";
 import MarketBtn from "../atmComponent/marketbtn";
 function OfferDashboard() {
     return (
-        <div className="flex flex-col justify-between mt-3">
+        <div className="flex flex-col w-[100%]  justify-between">
 
-            <div className="flex">
+            <div className="flex w-[100%] lg:w-[60%] justify-between md:flex-row flex-col">
                 <MarketBtn btnName="Sell" />
                 <MarketBtn btnName="Buy" />
                 <MarketBtn btnName="Exchange" />
             </div>
 
-            <div className=" mt-4 bg-[white] rounded-md">
-                <p className="text-center text-xl text-[#00b3ba]">Dex</p>
-                <table class="table">
+            <div className=" mt-4 rounded-md h-[60vh]">
+                <div className="white pl-2 pr-2 w-[100%] h-[95%] bg-[white]">
+                    {/* <p className="text-center text-xl text-[#00b3ba]">Dex</p>
+                <table class="w-[100%] table ">
                     <thead>
                         <tr>
                             <th className="text-sm">Offer ID</th>
@@ -68,7 +69,9 @@ function OfferDashboard() {
                         </tr>
                         
                     </tbody>
-                </table>
+                </table> */}
+
+                </div>
             </div>
         </div>
     )
