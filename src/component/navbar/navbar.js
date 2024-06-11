@@ -16,15 +16,15 @@ function NavBar() {
                     <ul className="flex w-[80vw] lg:w-[30vw]  items-center justify-between">
                        
                         <li className="">
-                            <a href="/" className="text-white text-[20px]">EXPLORE</a>
+                            <p className="text-white text-[20px]">EXPLORE</p>
                         </li>
                        
                         <li className="">
-                            <a href="/" className="text-white text-[20px]">YOUR OFFERS</a>
+                            <p className="text-white text-[20px]">YOUR OFFERS</p>
                         </li>
                      
                         <li className="" >
-                            <a href="/" className="text-white text-[20px]">HISTORY</a>
+                            <p className="text-white text-[20px]">HISTORY</p>
                         </li>
                    
                     </ul>
